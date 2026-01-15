@@ -1,0 +1,271 @@
+/* Section */
+.icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Icon color */
+.icon-primary {
+  background-color: black !important;
+}
+
+.icon-primary-white {
+  background-color: white !important;
+}
+
+.icon-secondary {
+  background-color: gray;
+}
+
+/* Icon */
+.search-i {
+  mask: url('Icon2.svg') no-repeat -2px -2px;
+  width: 16px;
+  height: 17px;
+  mask-size: auto;
+}
+.grid-i {
+  mask: url('Icon2.svg') no-repeat -80px -80px;
+  width: 16px;
+  height: 17px;
+  mask-size: auto;
+}
+.loudspeaker-i {
+  mask: url('Icon2.svg') no-repeat -337px -596px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #808080;
+}
+.bell-i {
+  mask: url('Icon2.svg') no-repeat -50px -475px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #808080;
+}
+.question-circle-i {
+  mask: url('Icon2.svg') no-repeat -74px -475px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #808080;
+}
+.three-dot-i {
+  mask: url('Icon2.svg') no-repeat -98px -475px;
+  width: 21px;
+  height: 19px;
+  mask-size: auto;
+  background-color: #808080;
+}
+.light-bulb-i {
+  mask: url('Icon2.svg') no-repeat -166px -278px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.chat-bubble-i {
+  mask: url('Icon2.svg') no-repeat -42px -43px;
+  width: 16px;
+  height: 15px;
+  mask-size: auto;
+}
+.home-i {
+  mask: url('Icon2.svg') no-repeat 0 -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.four-component-i {
+  mask: url('Icon2.svg') no-repeat -120px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.list-detail-i {
+  mask: url('Icon2.svg') no-repeat -100px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.database-i {
+  mask: url('Icon2.svg') no-repeat -20px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.function-i {
+  mask: url('Icon2.svg') no-repeat -40px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.payment-bag-i {
+  mask: url('Icon2.svg') no-repeat -60px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.report-circle-i {
+  mask: url('Icon2.svg') no-repeat -80px -778px;
+  width: 20px;
+  height: 18px;
+  mask-size: auto;
+}
+.setting-i {
+  mask: url('Icon2.svg') no-repeat -140px -777px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.chevron-left-i {
+  mask: url('Icon2.svg') no-repeat -167px -4px;
+  width: 8px;
+  height: 12px;
+  mask-size: auto;
+}
+.chevron-right-i {
+  mask: url('Icon2.svg') no-repeat -146px -4px;
+  width: 8px;
+  height: 12px;
+  mask-size: auto;
+}
+.chevron-down-i {
+  mask: url('Icon2.svg') no-repeat -102px -1px;
+  width: 16px;
+  height: 16px;
+  mask-size: auto;
+}
+.edit-box-i {
+  mask: url('Icon2.svg') no-repeat -260px -100px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.add-i {
+  mask: url('Icon2.svg') no-repeat -220px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.collapsed-right-i {
+  mask: url('Icon2.svg') no-repeat -162px -779px;
+  width: 16px;
+  height: 16px;
+  mask-size: auto;
+}
+.collapsed-left-i {
+  mask: url('Icon2.svg') no-repeat -162px -779px;
+  width: 16px;
+  height: 16px;
+  mask-size: auto;
+}
+.checked-i {
+  mask: url('Icon2.svg') no-repeat -120px -60px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.filter-i {
+  mask: url('Icon2.svg') no-repeat -20px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #6e737a !important;
+}
+.unchecked-dot-i {
+  mask: url('Icon2.svg') no-repeat -80px -20px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.checked-dot-i {
+  mask: url('Icon2.svg') no-repeat -100px -20px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+.unchecked-square-i {
+  mask: url('Icon2.svg') no-repeat -240px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+
+.checked-square-i {
+  border-radius: 4px;
+  background: url('Icon2.svg') -260px 0px no-repeat;
+  width: 20px;
+  height: 20px;
+  color: transparent;
+}
+
+.arrow-left-i {
+  mask: url('Icon2.svg') no-repeat -180px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #6e737a;
+}
+
+.xmark-i {
+  mask: url('Icon2.svg') no-repeat -280px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+
+.circle-minus-i {
+  mask: url('Icon2.svg') no-repeat -220px -40px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #f90;
+}
+
+.copy-i {
+  mask: url('Icon2.svg') no-repeat -80px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #6e737a !important;
+}
+
+.pencil-i {
+  mask: url('Icon2.svg') no-repeat -60px 0;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #6e737a !important;
+}
+
+.trash-i {
+  mask: url('Icon2.svg') no-repeat -120px -20px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #ff6161;
+}
+
+.circle-info-i {
+  mask: url('Icon2.svg') no-repeat -260px -40px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+}
+
+.xmark-circle-i {
+  mask: url('Icon2.svg') no-repeat -240px -40px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #e61d1d;
+}
+
+.checkmark-circle-i {
+  mask: url('Icon2.svg') no-repeat -180px -40px;
+  width: 20px;
+  height: 20px;
+  mask-size: auto;
+  background-color: #34b057;
+}

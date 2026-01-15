@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: none;
+  text-decoration: none;
+}
+
+html,
+body,
+button,
+input,
+textarea {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.dx-overlay-content,
+.dx-popup-title,
+.dx-item-content {
+  font-family: Inter, Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  /* Branding */
+  --color-branding-primary: #16a057; /* Màu nút chính */
+
+  /* Text */
+  --color-text-main: #212121; /* Màu chữ chính */
+  --color-text-sub: #666666; /* Màu chữ phụ */
+  --color-text-placeholder: #9e9e9e; /* Màu chữ placeholder */
+  --color-gray-light: #eaebef;
+  --color-gray-dark: #393139;
+
+  /* Background */
+  --color-bg-main: #f4f4f4; /* Màu nền (Background) */
+  --color-bg-secondary: #f2f2f2;
+  --color-bg-secondary-darker: #f6f6f6;
+
+  /* Data grid */
+  --color-datagrid-border: #e0e0e0; /* Màu border của bảng */
+  --color-datagrid-header-bg: #f5f6f6; /* Màu background của header */
+
+  /* Status */
+  --color-focus: #eaf7ee; /* Trạng thái focus */
+  --color-error: #ff0000; /* Lỗi */
+  --color-warning: #ffb000; /* Cảnh báo */
+  --color-active: #16a057; /* Đang hoạt động/Đã thanh toán/... */
+  --color-inactive: #c0c0c0; /* Chưa xác nhận/Ngừng áp dụng/... */
+
+  /* Color palette (Màu avatar, tag) */
+  --palette-orange: #ffa245;
+  --palette-pink: #e54c91;
+  --palette-red: #ea3d00;
+  --palette-magenta: #e01aad;
+  --palette-cyan: #04d2ff;
+  --palette-light-blue: #1ca9e9;
+  --palette-green: #16a057;
+  --palette-light-green: #4ac67a;
+  --palette-blue: #1976d2;
+  --palette-indigo: #3f51b5;
+  --palette-purple: #8e24aa;
+  --palette-light-purple: #d7aef5;
+  --palette-gray: #dedeff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 0.384px !important;
+  font-weight: 700;
+}
+
+.dx-tooltip-wrapper .dx-overlay-content .dx-popup-content {
+  display: inline-block;
+  padding: 9px 12px;
+  font-size: 0.85em;
+  line-height: normal;
+  white-space: nowrap;
+  background: #4e4e4e;
+  -webkit-box-shadow: inset 0 0 0 1000px #4e4e4e;
+  box-shadow: inset 0 0 0 1000px #4e4e4e;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.dx-tooltip-wrapper.dx-popover-wrapper .dx-popover-arrow::after {
+  border: 1px solid #4e4e4e !important;
+  background: #4e4e4e !important;
+}
+
+.ms-icon-tooltip-content {
+  white-space: pre-line;
+  word-wrap: break-word;
+  max-width: 500px;
+  text-align: left;
+}
