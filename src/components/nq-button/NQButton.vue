@@ -1,5 +1,5 @@
 <template>
-    <button class="btn-custom d-flex">
+    <button class="btn-custom d-fle" :class="[background]">
         <i v-if="icon" class="icon" :class="[icon, color]"></i>
         <span v-if="text" class="text">{{ text }}</span>
     </button>
@@ -17,6 +17,10 @@ const props = defineProps({
     color: {
         type: String,
         default: 'icon-primary-white'
+    },
+    background: {
+        type: String,
+        default: 'bg-primary' //bg-primary, bg-secondary, bg-transparent, bg-outline
     }
 });
 </script>
@@ -25,9 +29,7 @@ const props = defineProps({
     display: flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
     border: none;
     cursor: pointer;
-
 }
 </style>

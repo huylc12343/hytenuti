@@ -28,7 +28,7 @@ const logoItems = [
         <div class="right">
             <ul class="d-flex d-items-center">
                 <li v-for="(item, index) in logoItems" :key="index">
-                    <NQButton :icon="item.name" />
+                    <NQButton :icon="item.name" background="bg-transparent" />
                 </li>
             </ul>
         </div>

@@ -1,61 +1,36 @@
 <template>
-    <div class="input-wrapper d-flex " :class="{ left: labelPosition === 'left' }">
-        <label v-if="label" for="nq-input" class="input-label">
+    <div class="input-wrapper" :class="{ left: labelPosition === 'left' }">
+        <label v-if="label" class="input-label">
             {{ label }}
             <span v-if="required" class="required">*</span>
         </label>
-        <input :type="type" :placeholder="placeholder" class="nq-input" :min="min" :value="modelValue"
-            @input="$emit('update:modelValue', $event.target.value)" />
-    </div>
 
+        <input class="nq-input" :type="type" :placeholder="placeholder" :min="type === 'number' ? min : undefined"
+            :value="modelValue" @input="$emit('update:modelValue', $event.target.value)" />
+    </div>
 </template>
+
 <script setup>
-const props = defineProps({
-    label: {
-        type: String,
-        default: ''
-    },
+defineProps({
+    modelValue: [String, Number],
+    label: String,
     type: {
         type: String,
         default: 'text'
     },
-    placeholder: {
-        type: String,
-        default: ''
-    }, required: {
-        type: Boolean,
-        default: false
-    },
+    placeholder: String,
+    required: Boolean,
     labelPosition: {
         type: String,
-        default: 'top' // 'top' hoặc 'left'
+        default: 'top'
     },
-    min: [String, Number],
+    min: [String, Number]
+})
 
-});
 defineEmits(['update:modelValue'])
-
 </script>
+
 <style scoped>
-.input-wrapper.left .input-label {
-    width: 150px;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-/* --- Label ở trên --- */
-.input-wrapper.top .input-label {
-    text-align: left;
-}
-
-.nq-input {
-    width: 100%;
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
 .input-wrapper {
     width: 100%;
     display: flex;
@@ -64,10 +39,26 @@ defineEmits(['update:modelValue'])
     margin-bottom: 16px;
 }
 
-/* --- Label ở bên trái --- */
 .input-wrapper.left {
     flex-direction: row;
     align-items: center;
     gap: 12px;
+}
+
+.input-label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.input-wrapper.left .input-label {
+    width: 150px;
+}
+
+.nq-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 </style>
